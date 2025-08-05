@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api/v1', // Adjust this to match your backend URL
+  baseURL: 'https://authapi-2ikf.onrender.com/api/v1', // Adjust this to match your backend URL
   headers: {
     'Content-Type': 'application/json',
   },
